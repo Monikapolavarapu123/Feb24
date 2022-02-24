@@ -1,0 +1,16 @@
+x=input()
+l=input()
+n=input(l)
+o=[]
+e=[]
+for i in range(n):
+  j=i+1 
+  if j%2==0:
+    e.append(l[i])
+  else:
+    o.append(l[i])
+  print(o,'',e)
+543
+654
+654
+789
